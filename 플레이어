@@ -1,0 +1,21 @@
+const player = {
+
+x:0,
+y:25,
+z:0,
+
+yaw:0,
+
+speed:0.18,
+
+vy:0,
+
+ground:false
+
+};
+
+camera.position.set(
+player.x,
+player.y,
+player.z
+);
